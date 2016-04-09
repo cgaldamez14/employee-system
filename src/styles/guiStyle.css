@@ -1,0 +1,100 @@
+.root {
+     -fx-background-image: url("background.jpg");
+}
+
+.loginTitle{
+	-fx-alignment: CENTER;
+}
+
+.loginText {
+	-fx-padding: 30px;
+	-fx-font-size: 32px;
+	-fx-font-family: "Arial Black";
+	-fx-text-fill: #c0c0c0;
+	-fx-effect: innershadow(three-pass-box , black , 6, 0.0 , 0 , 2 );
+}
+
+.loginButton {
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-padding: 5px 40px;
+	-fx-background-color: linear-gradient(#61a2b1, #2A5058);
+	-fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.6), 5, 0.0, 0, 1);
+}
+
+.loginButton:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+
+.welcome{
+	-fx-padding: 30px;
+	-fx-font-size: 60px;
+	-fx-font-family: "Arial Black";
+	-fx-text-fill: #c0c0c0;
+	-fx-effect: innershadow(three-pass-box , black , 6, 0.0 , 0 , 2 );
+}
+
+
+.results{
+	-fx-padding: 30px;
+	-fx-font-size: 30px;
+	-fx-font-family: "Arial Black";
+	-fx-text-fill: #c0c0c0;
+	-fx-effect: innershadow(three-pass-box , black , 6, 0.0 , 0 , 2 );
+}
+.fields{
+	-fx-padding: 25px 0 0 0;
+	-fx-alignment: CENTER;
+}
+
+.fields2{
+	-fx-alignment: TOP_CENTER;
+}
+
+.fieldButtons{
+	-fx-alignment: CENTER_RIGHT;
+}
+
+.fieldLabelText{
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bolder;
+	-fx-font-size: 130%;
+	-fx-text-fill: #2A5058;
+}
+
+.message{
+	-fx-font-family: "Arial Narrow";
+	-fx-text-fill: #2A5058;
+	-fx-font-weight: bolder;
+	-fx-font-size: 130%;
+	-fx-padding: 50px 50px;
+}
+
+.messageModify{
+	-fx-font-family: "Arial Narrow";
+	-fx-text-fill: #2A5058;
+	-fx-font-weight: bolder;
+	-fx-font-size: 130%;
+	-fx-padding: 10px 50px;
+}
+
+.list{
+	-fx-background-color: #35454d;
+	-fx-text-fill: #ffffff;
+	-fx-border-color: #000000;
+	-fx-padding: 5px;
+}
+
+.menu{
+    -fx-text-fill: black;
+}
+
+.menu_bar{
+    -fx-background-color: #35454d;
+}
+
+.tabs{
+	-fx-background-color: #35454d;
+	-fx-text-fill: white;
+}
